@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
-import netlify from "@astrojs/netlify";
+import netlify from "@astrojs/netlify/functions";
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  adapter: netlify(),
-  integrations: [svelte()],
   output: "server",
+  adapter: netlify(),
+  integrations: [svelte()]
 });
