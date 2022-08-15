@@ -1,6 +1,6 @@
-# Astro-Solid Hacker News
+# Astro-Svelte Hacker News
 
-This repos is a simple demo of using Astro + SolidJS integration to do a Hackernews Clone with Partial Hydration. It is setup with the Netlify Adapter and you can see it deployed [here](https://astro-solid-hn.netlify.app).
+This repos is a simple demo of using Astro + Svelte integration to do a Hackernews Clone with Partial Hydration. It is setup with the Netlify Adapter and you can see it deployed [here](https://astro-svelte-hn.netlify.app).
 
 ## 🧞 Commands
 
